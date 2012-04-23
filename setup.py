@@ -9,7 +9,7 @@ changes = file(changes_file).read().split('\n\n\n')
 latest_changes = '\n\n\n'.join(changes[:3])
 
 setup(
-    name="Nosyd",
+    name="nosyd",
     version=version,
     description="""\
 A _minimalist_ personal command line friendly CI server. Automatically runs your build whenever one
